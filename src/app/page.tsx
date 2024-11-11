@@ -1,9 +1,10 @@
-// src/app/page.tsx
+'use client';
+
 import StockAnalyzer from '@/components/StockAnalyzer';
 
 export default function Home() {
   return (
-    <main className="container mx-auto py-8 px-4">
+    <main className="min-h-screen p-8 bg-gray-100">
       <StockAnalyzer />
     </main>
   );
