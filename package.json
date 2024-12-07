@@ -24,7 +24,6 @@
     "autoprefixer": "^10.4.20",
     "npx": "^10.2.2",
     "postcss": "^8.4.48",
-    "svelte-preprocess": "^6.0.3",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.2.2"
   }
