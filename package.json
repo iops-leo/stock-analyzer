@@ -9,22 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.16",
     "clsx": "^2.1.1",
+    "critters": "^0.0.23",
     "lucide-react": "^0.294.0",
     "next": "14.0.3",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recharts": "^2.10.1",
-    "tailwind-merge": "^2.5.4"
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
-    "autoprefixer": "^10.4.20",
     "npx": "^10.2.2",
-    "postcss": "^8.4.48",
-    "tailwindcss": "^3.4.14",
     "typescript": "^5.2.2"
   }
 }
