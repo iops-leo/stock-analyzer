@@ -1,4 +1,4 @@
-import './globals.css'
+import '@/app/globals.css'  // 또는 '../app/globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -12,9 +12,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ko" className="bg-gray-100">
+    <html lang="ko">
       <body className="min-h-screen bg-gray-100">
-        <div className="mx-auto">
+        <div className="container mx-auto px-4">
           {children}
         </div>
       </body>
